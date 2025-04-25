@@ -1,0 +1,13 @@
+name = "dividend-tracker"
+main = "worker.js"
+compatibility_date = "2025-03-21"
+
+d1_databases = [
+    { binding = "DATABASE", database_name = "dividen-db", database_id = "663ea584-4040-42af-a9cb-13f2307c452f" }
+]
+
+workers_dev = false
+preview_urls = false
+
+[observability.logs]
+enabled = true
